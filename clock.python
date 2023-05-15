@@ -1,0 +1,8 @@
+# focusclock
+import time
+import os
+
+while True:
+    os.system('clear')  # 如果你在Windows环境下使用，应改为 'cls'
+    print(time.strftime('%H:%M:%S'))  # %H:%M:%S 是 24小时制的时分秒
+    time.sleep(1)  # 每秒更新一次
